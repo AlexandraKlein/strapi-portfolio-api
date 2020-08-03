@@ -40,6 +40,9 @@
     "date": {
       "type": "date",
       "required": true
+    },
+    "external_link": {
+      "type": "string"
     }
   }
 }
