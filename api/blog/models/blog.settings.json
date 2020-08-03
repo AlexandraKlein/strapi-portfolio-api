@@ -33,19 +33,6 @@
       "targetField": "title",
       "required": true
     },
-    "category": {
-      "type": "enumeration",
-      "enum": [
-        "gatsby",
-        "javascript",
-        "react",
-        "html",
-        "css",
-        "animation"
-      ],
-      "required": true,
-      "default": "gatsby"
-    },
     "description": {
       "type": "text",
       "required": true
