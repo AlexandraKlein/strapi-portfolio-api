@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "featured_videos",
+  "info": {
+    "name": "Featured Video"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "video_url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

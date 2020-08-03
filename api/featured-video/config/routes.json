@@ -2,24 +2,24 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/about",
-      "handler": "about.find",
+      "path": "/featured-video",
+      "handler": "featured-video.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/about",
-      "handler": "about.update",
+      "path": "/featured-video",
+      "handler": "featured-video.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/about",
-      "handler": "about.delete",
+      "path": "/featured-video",
+      "handler": "featured-video.delete",
       "config": {
         "policies": []
       }
